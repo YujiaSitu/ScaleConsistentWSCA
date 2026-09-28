@@ -172,7 +172,7 @@ def main(argv=None):
     parser.add_argument("--random_state", type=int, default=42, help="Random seed for KFold")
     parser.add_argument("--seed", type=int, default=1, help="Random seed for repeat")
     parser.add_argument("--epochs", type=int, default=10, help="Number of training epochs")
-    parser.add_argument("--lr", type=float, default=0.0092, help="Initial learning rate")
+    parser.add_argument("--lr", type=float, default=0.001, help="Initial learning rate")
     parser.add_argument("--T0", type=float, default=100.0, help="Initial well time (ms)")
     parser.add_argument("--lambda_recon", type=float, default=0.005, help="rec loss")
     parser.add_argument("--lambda_seis", type=float, default=0.05, help="synthetic seismic loss")
