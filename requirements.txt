@@ -1,0 +1,10 @@
+# Direct runtime dependencies recorded from the local pytorch_2.7.0 environment.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.7.0+cu128
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.13.1
+scikit-learn==1.6.1
+tqdm==4.67.1
+segyio==1.9.13
+openpyxl==3.1.5
